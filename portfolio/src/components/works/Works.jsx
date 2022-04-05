@@ -16,7 +16,7 @@ export default function Works() {
           I've recently finished my stint at U.C. Davis and persuing a career as
           a full stack web developer. Throughout my time with U.C Davis, I've
           gained experience on gaining technical programming skills in HTML5,
-          CSS3, Javascript, JQuery, Bootstrap, Node Js, MySQL,
+          CSS3, JavaScript, JQuery, Bootstrap, Node Js, MySQL,
           MongoDB, Express, Handelbars.js, & ReactJS. Prior to to my bootcamp
           experience I had only had beginner knowledge of Python, but with my new
           found love for web development. I look forward to learning and

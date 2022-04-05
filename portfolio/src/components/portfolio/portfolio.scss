@@ -51,9 +51,10 @@
         transition: all .5s ease;
         cursor: pointer;
         
-        h3{
-            position: absolute;
+        a{
+            position: relative;
             font-size: 20px;
+            justify-content: space-around;
         }
 
         img{
