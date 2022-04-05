@@ -16,7 +16,7 @@ export default function Portfolio() {
         </div>
         <div className="item">
           <img src={process.env.PUBLIC_URL + "/assets/consolethis.png"} alt="" /> {/* this is where you add the project*/}
-          <h3><a href="trane7.github.io/console-this/">Console This</a></h3>
+          <h3><a href="https://trane7.github.io/Console-This/">Console This</a></h3>
         </div>
         <div className="item">
           <img src={process.env.PUBLIC_URL + "/assets/quick-quack.png"} alt="" /> {/* this is where you add the project     https://quick-quack-quiz.herokuapp.com/*/} 
