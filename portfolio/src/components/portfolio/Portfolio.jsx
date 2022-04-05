@@ -11,8 +11,6 @@ export default function Portfolio() {
         <div className="item">
           <img src={process.env.PUBLIC_URL + "/assets/plenty.png"} alt="" /> {/* this is where you add the project*/}
           <h3><a href="https://plenty-in-the-pantry.herokuapp.com/">Plenty.</a></h3>
-          {/* <br/>
-          <h4><a href="https://github.com/Trane7/Recipe-app">GH Repo</a></h4> */}
         </div>
         <div className="item">
           <img src={process.env.PUBLIC_URL + "/assets/consolethis.png"} alt="" /> {/* this is where you add the project*/}
