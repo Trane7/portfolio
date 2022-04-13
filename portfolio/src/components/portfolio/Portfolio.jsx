@@ -30,7 +30,7 @@ export default function Portfolio() {
         </div>
         <div className="item">
           <img src={process.env.PUBLIC_URL + "/assets/virtual.png"} alt="" /> {/* this is where you add the project*/}
-          <h3><a href="https://trane7.github.io/virtual-notes/">Virtual Notes</a></h3>
+          <h3><a href="https://virtualnote.herokuapp.com/">Virtual Notes</a></h3>
         </div>
         <div className="item">
           <img src={process.env.PUBLIC_URL + "/assets/schedule.png"} alt="" /> {/* this is where you add the project*/}
