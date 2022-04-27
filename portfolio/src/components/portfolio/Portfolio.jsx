@@ -11,7 +11,8 @@ export default function Portfolio() {
         <div className="item">
           <img src={process.env.PUBLIC_URL + "/assets/plenty.png"} alt="" /> {/* this is where you add the project*/}
           <h3><a href="https://plenty-in-the-pantry.herokuapp.com/">Plenty.</a></h3>
-          <h4><a href="https://github.com/Trane7/Day-to-Remember">Github Repo</a></h4>
+          <h4><a href="https://github.com/Trane7/Recipe-app">Github Repo</a></h4>
+          <p> This is a recipe app! Tech: HTML5, CSS3, JavaScript, React Native, Node.js, Express.js.</p>
         </div>
         <div className="item">
           <img src={process.env.PUBLIC_URL + "/assets/consolethis.png"} alt="" /> {/* this is where you add the project*/}
