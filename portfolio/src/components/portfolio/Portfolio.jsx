@@ -8,6 +8,13 @@ export default function Portfolio() {
         <li className="active">Projects</li>
       </ul>
       <div className="container">
+      <div className="item"> {/* CTV Radio*/}
+          <img src={process.env.PUBLIC_URL + "/assets/ctvlogosm.jpg"} alt="" /> {/* this is where you add the project*/}
+          <h3><a href="https://trane7.github.io/ctvradioo/">CTV Radio</a></h3>
+          <h4><a href="https://github.com/Trane7/ctvradioo">Github Repo</a></h4>
+          <p>CTV Radio is an independent radio station website that will soon have merch you can purchase as well.</p>
+          <p>Technologies: React App, React JS/DOM,  CSS, FontAwesome,</p>
+        </div>
         <div className="item"> {/* Plenty App*/}
           <img src={process.env.PUBLIC_URL + "/assets/plenty.png"} alt="" /> {/* this is where you add the project*/}
           <h3><a href="https://plenty-in-the-pantry.herokuapp.com/">Plenty.</a></h3>
@@ -43,13 +50,6 @@ export default function Portfolio() {
           <p>Robot Gladiators is a prompt based game.
           </p>
           <p>Technologies: JavaScript, HTML, CSS, MVP.</p>
-        </div>
-        <div className="item"> {/* Budget Tracker App*/}
-          <img src={process.env.PUBLIC_URL + "/assets/budget.png"} alt="" /> {/* this is where you add the project*/}
-          <h3><a href="https://budget-tracker-pwas.herokuapp.com/">Budget Tracker</a></h3>
-          <h4><a href="https://github.com/Trane7/PWA-budget-tracker">Github Repo</a></h4>
-          <p>Budget Tracker is an app that helps the user budget their expenses on a daily basis.</p>
-          <p>Technologies: JavaScript, HTML, CSS, PWA.</p>
         </div>
         <div className="item">  {/* Weather App*/}
           <img src={process.env.PUBLIC_URL + "/assets/weather.png"} alt="" /> {/* this is where you add the project*/}

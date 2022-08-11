@@ -10,7 +10,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
     <div className={"menu " + (menuOpen && "active")}>
         <ul>
             <li onClick={()=>setMenuOpen(false)}>
-                <a href="#intro">Home</a>
+                <a href="#intro">Home</a> {/* this is how to scroll down*/ }
             </li>
             <li onClick={()=>setMenuOpen(false)}>
                 <a href="#works">About Me</a>
