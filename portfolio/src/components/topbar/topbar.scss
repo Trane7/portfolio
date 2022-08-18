@@ -3,12 +3,18 @@
 .topbar{
     width: 100%;
     height: 70px;
-    background-color: white;
-    color: $mainColor;
+    background: linear-gradient(90deg, rgb(26, 23, 23) 3%, rgb(151, 1, 1) 100%);
+    color: whitesmoke;
     position: fixed;
     top: 0;
     z-index: 3;
     transition: all 1s ease;
+    text-decoration: none;
+
+    a{
+        color: whitesmoke;
+        text-decoration: none;
+    }
 
     .wrapper{
         padding: 10px 30px;
@@ -24,7 +30,7 @@
                 font-size: 40px;
                 font-weight: 700;
                 text-decoration: none;
-                color: inherit;
+                color: rgb(196, 3, 3);
                 margin-right: 40px;
             }
 
@@ -48,6 +54,7 @@
             .hamburger{
                 width: 32px;
                 height: 25px;
+                color: whitesmoke;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -56,7 +63,7 @@
                 span{
                     width: 100%;
                     height: 3px;
-                    background-color: $mainColor;
+                    background-color: whitesmoke;
                     transform-origin: left;
                     transition: all 2s ease;
                 }
@@ -65,20 +72,20 @@
     }
 
     &.active{
-        background-color: $mainColor;
+        background-color: whitesmoke;
         color: white;
 
         .hamburger{
             span{
                 &:first-child{
-                    background-color: white;
+                    background-color: black;
                     transform: rotate(45deg);
                 }
                 &:nth-child(2){
                     opacity: 0;
                 }
                 &:last-child{
-                    background-color: white;
+                    background-color: black;
                     transform: rotate(-45deg);
                 }
             }
