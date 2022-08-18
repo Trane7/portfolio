@@ -13,7 +13,7 @@ export default function Portfolio() {
           <h3><a href="https://trane7.github.io/ctvradioo/">CTV Radio</a></h3>
           <h4><a href="https://github.com/Trane7/ctvradioo">Github Repo</a></h4>
           <p>CTV Radio is an independent radio station website that will soon have merch you can purchase as well.</p>
-          <p>Technologies: React App, React JS/DOM,  CSS, FontAwesome,</p>
+          <p>Technologies: React App, React JS/DOM,  CSS, FontAwesome, JQuery, iTyped.</p>
         </div>
         <div className="item"> {/* Plenty App*/}
           <img src={process.env.PUBLIC_URL + "/assets/plenty.png"} alt="" /> {/* this is where you add the project*/}
