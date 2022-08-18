@@ -15,7 +15,8 @@ Welcome to my portfolio that I have created with the lasted React technologies. 
 - **CSS**
 
 ## Preview 
-![image](https://user-images.githubusercontent.com/89409597/159348108-73487705-2e1d-4e2b-b9ed-770102801769.png)
+![portfolio-ss](https://user-images.githubusercontent.com/89409597/185509772-1b053815-558b-4edc-9515-643964febf64.png)
+
 
 ## Links
   - **[My Portfolio](https://trane7.github.io/portfolio/)**
