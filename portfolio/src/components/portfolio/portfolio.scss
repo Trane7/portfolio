@@ -9,7 +9,7 @@
     h1{
         font-size: 70px;
         font-weight: 900;
-        color: rgb(116, 3, 3);
+        color: rgb(4, 134, 59);
     }
 
     ul{
@@ -25,8 +25,10 @@
             border-radius: 10px;
             cursor: pointer;
 
+          
+
             &.active{
-                background-color: rgb(116, 3, 3);
+                background-color:  rgb(3, 80, 94);
                 font-size: large;
                 margin-left: 30px;
                 color: white;
@@ -56,11 +58,31 @@
         position:relative;
         transition: all .5s ease;
         cursor: pointer;
+
+        p{
+            color: whitesmoke;
+        }
+
+        h3 a, h4 a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        h3 a:hover {
+            color:rgb(4, 134, 59);
+        }
+
+        h4 a:hover {
+            color:rgb(4, 134, 59);
+        }
         
         .a{
             position:relative;
             font-size: 30px;
             justify-content: space-between;
+
+            
+            
 
             
             h4{

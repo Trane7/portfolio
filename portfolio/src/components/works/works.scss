@@ -2,7 +2,7 @@
 
 .works{
     background-color: black;
-    color: rgb(116, 3, 3);
+    color: gray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,8 @@
     h1{
         font-size: 70px;
         margin-top: 150px;
+        margin-right: 50px;
+        color: rgb(4, 134, 59);
     }
 
     .card{
@@ -29,6 +31,7 @@
         font-size: 30px;
         font-weight: 800;
         margin-bottom: 186px;
+        margin-left: 60px;
     }
 
     
