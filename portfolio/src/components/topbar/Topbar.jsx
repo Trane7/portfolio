@@ -10,9 +10,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         </div>
         {/* <h1></h1> */}
         <div className="right">
-          <a href="">About</a>
-          <a href="">Portfolio</a>
-          <a href="">Contact</a>
+          <a href="#works">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#testimonials">Contact</a>
         </div>
       </div>
     </div>
