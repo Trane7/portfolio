@@ -17,14 +17,15 @@
             width: 900px;
             height: 900px;
             background-color: rgb(38, 109, 9);
-            border-radius: 50%;
+            border-radius: 300%;
+            border-start-start-radius: 40%;
             display: flex;
             align-items: center;
             justify-content: center;
 
             img{
-                height: 60%;
-                width: 50%;
+                height: 50%;
+                width: 48%;
                 border-radius: 50%;
                 margin-bottom: 50px;
                 margin-right: 15px;
