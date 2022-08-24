@@ -10,13 +10,9 @@
         scroll-behavior:auto;
         scroll-snap-type: y proximity;
         scrollbar-width: none; // for firefox
-        &::-webkit-scrollbar{
-            display: none;
-        }
 
         > *{
             width: 100vw;
-        scroll-snap-align: start;
         }
     }
 }
