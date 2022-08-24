@@ -1,6 +1,7 @@
 import "./intro.scss";
 import { init } from 'ityped';
 import { useEffect, useRef } from "react";
+import {GitHub, Mail} from "@material-ui/icons";
 
 export default function Intro() {
 
@@ -22,10 +23,14 @@ export default function Intro() {
             <h2>Hello, I'm</h2>
             <h1>Demetre Growette</h1>
             <h3>Front-End Web <span ref={textRef}></span></h3>
+            <div className="itemContaner"> 
+            {/* <GitHub className="icon" /> add icons here */}
+            <a href="https://github.com/Trane7">
+            <button><GitHub className="icon" />GitHub</button>
+            </a>
+            
+            </div>
           </div>
-          <a href="#portfolio">
-            <img src="assets/down.png" alt="" />
-          </a>
         </div>
         <div className="right">
         <div className="imgContainer">

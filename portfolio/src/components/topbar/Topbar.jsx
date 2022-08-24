@@ -6,23 +6,13 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     <div className= {"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">DG</a>
-          <div className="itemContaner"> 
-          <GitHub className="icon" /> {/* add icons here*/}
-          <a href="https://github.com/Trane7">GitHub</a>
-          </div>
-          <div className="itemContaner"> 
-          <Mail className="icon" /> {/* add icons here*/}
-          <span>dgrowette@gmail.com</span>
-          </div>
+          <a href="#intro" className="logo"><span>DG</span></a>
         </div>
         {/* <h1></h1> */}
         <div className="right">
-          <div className="hamburger" onClick={()=> setMenuOpen(!menuOpen)}>
-            <span className="line1"></span>
-            <span className="line2"></span>
-            <span className="line3"></span>
-          </div>
+          <a href="">About</a>
+          <a href="">Portfolio</a>
+          <a href="">Contact</a>
         </div>
       </div>
     </div>
