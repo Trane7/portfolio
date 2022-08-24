@@ -34,7 +34,7 @@ export default function Intro() {
         </div>
         <div className="right">
         <div className="imgContainer">
-            <img src={process.env.PUBLIC_URL + "/assets/me.png"} alt=""/>
+            <img src={process.env.PUBLIC_URL + "/assets/me2.png"} alt=""/>
           </div>
          
         </div>
