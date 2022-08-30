@@ -68,6 +68,7 @@
                 font-size: 60px;
                 margin: 10px 0;
                 color: grey;
+                margin-left: 56px;
 
                 @include mobile{
                     font-size: 40px;
@@ -78,12 +79,14 @@
                 font-size: 35px;
                 font-weight: 700;
                 color: black;
+                margin-left: 60px;
             }
 
             h3{
                 font-size: 30px;
                 font-weight: 700;
                 color: black;
+                margin-left: 60px;
                 
 
                 @include mobile{
@@ -114,6 +117,7 @@
                 height: 40px;
                 width: 140px;
                 margin-top: 30px;
+                margin-left: 60px;
                 background-color: green;
                 border: whitesmoke;
                 border-radius: 5%;
