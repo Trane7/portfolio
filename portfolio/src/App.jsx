@@ -7,6 +7,8 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Menu from "./components/menu/Menu";
 import "./app.scss";
 import { useState } from "react";
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import ModalDialog from './components/Modal/ModalDialog';
 
 
 
@@ -21,6 +23,10 @@ function App() {
         <Intro/>
         <Works/> {/* this is the About Me section */}
         <Portfolio/>
+        <div className="container mt-3">
+        {/* <ModalDialog /> */}
+        </div>
+        
         <Testimonials/> {/* this is the Resume section */}
         {/* <Contact/> */}
       </div>
