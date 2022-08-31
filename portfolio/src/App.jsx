@@ -17,6 +17,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
+
+  const [openModal, setOpenModal] = useState(false);
+
   const [menuOpen,setMenuOpen] = useState(false)
   return (
     <div className="app">
@@ -24,7 +27,7 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
-        <Works/> {/* this is the About Me section */}
+        <Works/> {/* this is the About Me section */}      
         <Portfolio/>
         {/* <ModalDialog /> */}
         <Testimonials/> {/* this is the Resume section */}
