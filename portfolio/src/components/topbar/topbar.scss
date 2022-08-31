@@ -18,9 +18,7 @@
     align-items: center;
   }
 
-  a:hover {
-    color: rgb(13, 193, 224);
-  }
+  
 
   .wrapper {
     padding: 10px 30px;
@@ -61,13 +59,18 @@
         align-items: center;
 
       a {
-        color: green;
+        color: rgb(1, 90, 1);
         text-decoration: none;
         justify-content: space-between;
         margin-right: 90px;
         font-size: 25px;
-        font-weight: 900;
+        font-weight: 500;
 
+      }
+
+      a:hover {
+        color: rgb(13, 224, 41);
+        font-weight: 900;
       }
     }
   }
