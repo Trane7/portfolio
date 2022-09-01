@@ -6,17 +6,15 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
-const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
-  p: 4,
-};
+// const style = {
+//   position: 'absolute',
+//   top: '50%',
+//   left: '50%',
+//   transform: 'translate(-50%, -50%)',
+//   width: 600,
+//   bgcolor: 'background.paper',
+//   p: 4,
+// };
 
 export default function Portfolio() {
 
@@ -39,17 +37,20 @@ export default function Portfolio() {
           <p>Technologies: React App, React JS/DOM,  CSS, FontAwesome, JQuery, iTyped.</p>
         </div>
       <div className="item"> {/* CTV Radio*/}
-          <Button onClick={handleOpen}>Open Modal</Button>
-          <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description"
-            >
-              <Box sx={style}>
-                <Typography id="modal-modal-title" variant="h6" component="h2">
-                  Text in a modal
-                </Typography>
-                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                  Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                </Typography>
-              </Box>
+          <Button onClick={handleOpen}></Button>
+          <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
+              <div className="popout">
+                <button className="xb" onClick={handleClose}> X </button>
+                <br></br>
+                <img src={process.env.PUBLIC_URL + "/assets/ctvlogosm.jpg"} alt="" /> {/* this is where you add the project*/}
+                <br></br>
+                <div>
+                <button className="btn1"><a href="https://trane7.github.io/ctvradioo/" className="link1">CTV Radio</a></button>
+                <button className="btn2"><a href="https://github.com/Trane7/ctvradioo" className="link2">Github Repo</a></button>
+                </div>
+                <p>CTV Radio is an independent radio station website that will soon have merch you can purchase as well.</p>
+                <p>Technologies: React App, React JS/DOM,  CSS, FontAwesome, JQuery, iTyped.</p>
+              </div>
             </Modal>
         </div>
         <div className="item"> {/* Plenty App*/}
