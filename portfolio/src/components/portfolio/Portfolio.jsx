@@ -29,15 +29,8 @@ export default function Portfolio() {
         <li className="active">Projects</li>
       </ul>
       <div className="container">
-      <div className="item"> {/* CTV Radio*/}
-          <img src={process.env.PUBLIC_URL + "/assets/ctvlogosm.jpg"} alt="" /> {/* this is where you add the project*/}
-          <h3><a href="https://trane7.github.io/ctvradioo/">CTV Radio</a></h3>
-          <h4><a href="https://github.com/Trane7/ctvradioo">Github Repo</a></h4>
-          <p>CTV Radio is an independent radio station website that will soon have merch you can purchase as well.</p>
-          <p>Technologies: React App, React JS/DOM,  CSS, FontAwesome, JQuery, iTyped.</p>
-        </div>
-      <div className="item"> {/* CTV Radio*/}
-          <Button onClick={handleOpen}></Button>
+      <div className="item"> {/* CTV Radio Modal*/}   
+          <Button onClick={handleOpen}><img src={process.env.PUBLIC_URL + '/assets/ctvlogosm.jpg'} className='ctv-btn'></img></Button>
           <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
               <div className="popout">
                 <button className="xb" onClick={handleClose}> X </button>
