@@ -46,12 +46,22 @@ export default function Portfolio() {
               </div>
             </Modal>
         </div>
-        <div className="item"> {/* Plenty App*/}
-          <img src={process.env.PUBLIC_URL + "/assets/plenty.png"} alt="" /> {/* this is where you add the project*/}
-          <h3><a href="https://plenty-in-the-pantry.herokuapp.com/">Plenty.</a></h3>
-          <h4><a href="https://github.com/Trane7/Recipe-app">Github Repo</a></h4>
-          <p>This is a Full-Stack recipe app that helps the user find recipes based off the ingredients they currently have in the house.</p>
-          <p>Technologies: HTML5, CSS3, JavaScript, React Native, Node.js, Heroku, and Express.js.</p>
+      <div className="item"> {/* Plenty Modal*/}   
+          <Button onClick={handleOpen} data-overlay='pro1'><img src={process.env.PUBLIC_URL + '/assets/plenty.png'} className='plenty-btn'></img></Button>
+          <Modal open={open} onClose={handleClose} id='plenty' aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
+              <div className="popout">
+                <button className="xb" onClick={handleClose}> X </button>
+                <br></br>
+                <img src={process.env.PUBLIC_URL + "/assets/plenty.png"} alt="" /> {/* this is where you add the project*/}
+                <br></br>
+                <div>
+                <button className="btn1"><a href="https://plenty-in-the-pantry.herokuapp.com/" className="link1">Plenty.</a></button>
+                <button className="btn2"><a href="https://github.com/Trane7/Recipe-app" className="link2">Github Repo</a></button>
+                </div>
+                <p>This is a Full-Stack recipe app that helps the user find recipes based off the ingredients they currently have in the house.</p>
+                <p>Technologies: HTML5, CSS3, JavaScript, React Native, Node.js, Heroku, and Express.js.</p>
+              </div>
+            </Modal>
         </div>
         <div className="item"> {/* Console this App*/}
           <img src={process.env.PUBLIC_URL + "/assets/consolethis.png"} alt="" /> {/* this is where you add the project*/}
