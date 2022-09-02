@@ -70,7 +70,7 @@ export default function Portfolio() {
                 <button className="btn2"><a href="https://github.com/Trane7/Recipe-app" className="link2">GITHUB REPO</a></button>
                 </div>
                 <p>THIS IS A FULL-STACK RECIPE APP THAT HELPS THE USER FIND RECIPES BASED OFF THE INGREDIENTS THEY CURRENTLY HAVE IN THE HOUSE.</p>
-                <p>TECHNOLOGIES: HTML5, CSS3, JAVASCRIPT, REACT NATIVE, NODE.JS, HEROKU, AND EXPRESS.JS.</p>   
+                <p>TECHNOLOGIES: HTML, CSS, JAVASCRIPT, REACT NATIVE, NODE.JS, HEROKU, AND EXPRESS.JS.</p>   
               </div>
             </Modal>
         </div>
