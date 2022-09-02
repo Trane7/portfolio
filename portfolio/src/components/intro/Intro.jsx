@@ -24,10 +24,15 @@ export default function Intro() {
             <h1>Demetre Growette</h1>
             <h3>Front-End Web <span ref={textRef}></span></h3>
             <div className="itemContaner"> 
+            <a href="https://docs.google.com/document/d/1Rl9pXG5k9HlEfBj2H5fiDfvbMp3aPS6vNDCwy3IiuS8/edit?usp=sharing">
+            <button className="resume">Hire Me</button>
+            </a>
             {/* <GitHub className="icon" /> add icons here */}
             <a href="https://github.com/Trane7">
             <button><GitHub className="icon" />GitHub</button>
             </a>
+            <h3 className="email"><Mail className="mail" />Dgrowette@gmail.com</h3>
+            
             
             </div>
           </div>
