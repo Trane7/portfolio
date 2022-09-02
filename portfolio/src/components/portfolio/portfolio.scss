@@ -47,6 +47,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+
     }
 
     .item{
@@ -60,6 +61,7 @@
         position:relative;
         transition: all .5s ease;
         cursor: pointer;
+        overflow: hidden;
 
         
         // .a{
