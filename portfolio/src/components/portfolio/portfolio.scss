@@ -131,6 +131,10 @@
     height: 100%;
 
 
+    .qq {
+        margin-left: 35.4%;
+    }
+
 
 
     .xb {
@@ -143,8 +147,12 @@
     }
 
     img {
-        margin-left: 33%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 34%;
     }
+
+    
 
     // h3, h4 {
     //     display: flex;
@@ -214,7 +222,7 @@
         align-items: center;
         justify-content: center;
         margin-right: 6%;
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 600;
         color:black;
     }

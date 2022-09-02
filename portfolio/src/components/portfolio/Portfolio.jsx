@@ -49,11 +49,11 @@ export default function Portfolio() {
                 <img src={process.env.PUBLIC_URL + "/assets/ctvlogosm.jpg"} alt="" /> {/* this is where you add the project*/}
                 <br></br>
                 <div>
-                <button className="btn1"><a href="https://trane7.github.io/ctvradioo/" className="link1">CTV Radio</a></button>
-                <button className="btn2"><a href="https://github.com/Trane7/ctvradioo" className="link2">Github Repo</a></button>
+                <button className="btn1"><a href="https://trane7.github.io/ctvradioo/" className="link1">CTV RADIO</a></button>
+                <button className="btn2"><a href="https://github.com/Trane7/ctvradioo" className="link2">GITHUB REPO</a></button>
                 </div>
-                <p>CTV Radio is an independent radio station website that will soon have merch you can purchase as well.</p>
-                <p>Technologies: React App, React JS/DOM,  CSS, FontAwesome, JQuery, iTyped.</p>
+                <p>CTV RADO IS AN INDEPENDENT RADIO STATION WEBSITE THAT WILL SOON HAVE MERCH YOU PURCHASE AS WELL.</p>
+                <p>TECHNOLOGIES: REACT APP, REACT JS/DOM, CSS, FONTAWESOME, JQUERY, iTYPED.</p>
               </div>
             </Modal>
         </div>
@@ -66,11 +66,11 @@ export default function Portfolio() {
                 <img src={process.env.PUBLIC_URL + "/assets/plenty.png"} alt="" /> {/* this is where you add the project*/}
                 <br></br>
                 <div>
-                <button className="btn1"><a href="https://plenty-in-the-pantry.herokuapp.com/" className="link1">Plenty.</a></button>
-                <button className="btn2"><a href="https://github.com/Trane7/Recipe-app" className="link2">Github Repo</a></button>
+                <button className="btn1"><a href="https://plenty-in-the-pantry.herokuapp.com/" className="link1">PLENTY.</a></button>
+                <button className="btn2"><a href="https://github.com/Trane7/Recipe-app" className="link2">GITHUB REPO</a></button>
                 </div>
-                <p>This is a Full-Stack recipe app that helps the user find recipes based off the ingredients they currently have in the house.</p>
-                <p>Technologies: HTML5, CSS3, JavaScript, React Native, Node.js, Heroku, and Express.js.</p>
+                <p>THIS IS A FULL-STACK RECIPE APP THAT HELPS THE USER FIND RECIPES BASED OFF THE INGREDIENTS THEY CURRENTLY HAVE IN THE HOUSE.</p>
+                <p>TECHNOLOGIES: HTML5, CSS3, JAVASCRIPT, REACT NATIVE, NODE.JS, HEROKU, AND EXPRESS.JS.</p>   
               </div>
             </Modal>
         </div>
@@ -80,14 +80,14 @@ export default function Portfolio() {
               <div className="popout">
                 <button className="xb" onClick={close3}> X </button>
                 <br></br>
-                <img src={process.env.PUBLIC_URL + "/assets/consolethis.png"} alt="" /> {/* this is where you add the project*/}
+                <img className="qq" src={process.env.PUBLIC_URL + "/assets/consolethis.png"} alt="" /> {/* this is where you add the project*/}
                 <br></br>
                 <div>
-                <button className="btn1"><a href="https://trane7.github.io/Console-This/" className="link1">Console This</a></button>
-                <button className="btn2"><a href="https://github.com/Trane7/Console-This" className="link2">Github Repo</a></button>
+                <button className="btn1"><a href="https://trane7.github.io/Console-This/" className="link1">CONSOLE THIS</a></button>
+                <button className="btn2"><a href="https://github.com/Trane7/Console-This" className="link2">GITHUB REPO</a></button>
                 </div>
-                <p>This app was designed to help the user find any kind of gaming console close to home.</p>
-                <p>Technologies: JavaScript, HTML, CSS, MVP, Node.js, Express.js, and APIs.</p>
+                <p>THIS APP WAS DESIGNED TO HELP THE USER FIND ANY KIND OF GAMING CONSOLE CLOSE TO HOME.</p>
+                <p>TECHNOLOGIES: JAVASCRIPT, HTML, CSS, MVP, NODE.JS, EXPRESS.JS, AND APIS.</p>
               </div>
             </Modal>
         </div>
@@ -97,14 +97,14 @@ export default function Portfolio() {
               <div className="popout">
                 <button className="xb" onClick={close4}> X </button>
                 <br></br>
-                <img src={process.env.PUBLIC_URL + "/assets/quick-quack2.png"} alt="" /> {/* this is where you add the project*/}
+                <img className="qq" src={process.env.PUBLIC_URL + "/assets/quick-quack2.png"} alt="" /> {/* this is where you add the project*/}
                 <br></br>
                 <div>
-                <button className="btn1"><a href="https://quick-quack-quiz.herokuapp.com/" className="link1">Quick-Quack</a></button>
-                <button className="btn2"><a href="https://github.com/Trane7/Quick-Quack-Quiz" className="link2">Github Repo</a></button>
+                <button className="btn1"><a href="https://quick-quack-quiz.herokuapp.com/" className="link1">QUICK-QUACK</a></button>
+                <button className="btn2"><a href="https://github.com/Trane7/Quick-Quack-Quiz" className="link2">GITHUB REPO</a></button>
                 </div>
-                <p>This is a Full-Stack web developed app that was made to help people make quizzes to help them study and to share with others.</p>
-                <p>Technologies: JavaScript, HTML, CSS, Handlebars.js, Express.js, Node.js, Heroku, and MVP.</p>
+                <p>THIS IS A FULL-STACK WEB DEVELOPED APP THAT WAS MADE TO HELP PEOPLE MAKE QUIZZES TO HELP THEM STUDY AND TO SHARE WITH OTHERS.</p>
+                <p>TECHNOLOGIES: JAVASCRIPT, HTML, CSS, HANDLEBARS.JS, EXPRESS.JS, NODE.JS, HEROKU, AND MVP.</p>
               </div>
             </Modal>
         </div>
